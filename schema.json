@@ -1,0 +1,100 @@
+{
+  "type": "component",
+  "metadata": {},
+  "schema": {
+    "name": "icon-stat-card",
+    "friendlyName": "icon-stat-card",
+    "description": "A bootstrap based colored icon stats card",
+    "icon": "Text",
+    "settings": [
+      {
+        "type": "text",
+        "key": "tittle",
+        "label": "Tittle",
+        "defaultValue": "Tittle"
+      },
+      {
+        "type": "text",
+        "key": "value",
+        "label": "Value",
+        "defaultValue": "Value"
+      },
+      {
+        "type": "icon",
+        "key": "icon",
+        "label": "Icon",
+        "defaultValue": "ri-line-chart-fill"
+      },
+      {
+        "type": "color",
+        "key": "backgroundColor",
+        "label": "Background Icon Color"
+      },
+      {
+        "type": "color",
+        "key": "iconColor",
+        "label": "Icon Color",
+        "defaultValue": "white"
+      },
+      {
+        "type": "number",
+        "key": "iconSize",
+        "label": "Icon Size",
+        "defaultValue": 25
+      },
+      {
+        "type": "text",
+        "key": "secondaryValue",
+        "label": "Secondary Value"
+      },
+      {
+        "type": "text",
+        "key": "compareSecondaryValueTo",
+        "label": "Compare Secondary Value to",
+        "defaultValue": "0"
+      },
+      {
+        "type": "text",
+        "key": "secondaryValueSuffix",
+        "label": "Secondary Value suffix",
+        "defaultValue": "%"
+      },
+      {
+        "type": "boolean",
+        "key": "showIconColorComparison",
+        "label": "Show colored icon comparison",
+        "defaultValue": true
+      },
+      {
+        "type": "icon",
+        "key": "aboveThreshholdIcon",
+        "label": "Above Threshhold Icon",
+        "defaultValue": "ri-arrow-up-fill"
+      },
+      {
+        "type": "icon",
+        "key": "belowThreshholdIcon",
+        "label": "Below Threshhold Icon",
+        "defaultValue": "ri-arrow-down-fill"
+      },
+      {
+        "type": "color",
+        "key": "aboveThreshholdColor",
+        "label": "Above Threshhold Color",
+        "defaultValue": "#2dce89"
+      },
+      {
+        "type": "color",
+        "key": "belowThreshholdColor",
+        "label": "Below Threshhold Color",
+        "defaultValue": "#f5365c"
+      },
+      {
+        "type": "text",
+        "key": "subtittle",
+        "label": "subtittle",
+        "defaultValue": "Subtittle"
+      }
+    ]
+  }
+}
